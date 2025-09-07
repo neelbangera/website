@@ -76,10 +76,7 @@ export default function Home() {
               <HobbyItem 
                 icon={IoMdBook}
                 name="Reading" 
-                details={<>
-                  Designing Data Intensive Applications •<br/>
-                  Code: The Hidden Language of Computers
-                  </>
+                details={"Designing Data Intensive Applications • Code: The Hidden Language of Computers"
                   }
 
               />
