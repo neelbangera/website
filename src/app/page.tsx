@@ -1,7 +1,6 @@
 import HobbyItem from "@/components/HobbyItem";
 import { IoMdBook } from "react-icons/io";
 import { CiFootball } from "react-icons/ci";
-import { MdCode } from "react-icons/md";
 import { PiPersonSimpleRun } from "react-icons/pi";
 import { TbTorii } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
