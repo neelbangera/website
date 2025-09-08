@@ -19,7 +19,7 @@ export default function Home() {
         <div className="text-yellow-400 text-lg mb-4 font-mono">
           Hello, world!
         </div>
-        <h1 className="text-5xl font-bold text-white mb-6">I'm Neel Bangera</h1>
+        <h1 className="text-5xl font-bold text-white mb-6">I&apos;m Neel Bangera</h1>
         <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
           This is my website
         </p>
