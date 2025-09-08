@@ -7,10 +7,9 @@ import { PiPersonSimpleRun } from "react-icons/pi";
 import { TbTorii } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
-import { ExternalLink } from "lucide-react";
 import { MdGamepad } from "react-icons/md";
-import { MdCode, MdWeb } from "react-icons/md";
-import { ChevronDown, ArrowRight } from "lucide-react";
+import { MdWeb } from "react-icons/md";
+import { ChevronDown } from "lucide-react";
 
 export default function Home() {
   return (
