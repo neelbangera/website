@@ -98,7 +98,6 @@ export default function Home() {
                 "Vercel",
               ]}
               githubUrl="https://github.com/neelbangera/website"
-              liveUrl="https://website-b2xz-n6r09ezcu-neels-projects-4bc2b6b5.vercel.app/"
               icon={MdWeb}
             />
             <ProjectCard
