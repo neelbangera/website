@@ -19,7 +19,9 @@ export default function Home() {
         <div className="text-yellow-400 text-lg mb-4 font-mono">
           Hello, world!
         </div>
-        <h1 className="text-5xl font-bold text-white mb-6">I&apos;m Neel Bangera</h1>
+        <h1 className="text-5xl font-bold text-white mb-6">
+          I&apos;m Neel Bangera
+        </h1>
         <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
           This is my website
         </p>
@@ -39,13 +41,13 @@ export default function Home() {
                 <h2 className="text-2xl font-bold text-left mb-8 text-gray-200">
                   About Me
                 </h2>
-                <div className="flex items-center space-x-6">
+                <div className="flex flex-col md:flex-row items-center md:items-center space-y-4 md:space-y-0 md:space-x-6">
                   <img
                     src="/seal.png"
                     alt="University of Michigan Seal"
                     className="w-24 h-24 rounded-full"
                   />
-                  <p className="text-lg text-white pr-5">
+                  <p className="text-lg text-white pr-5 text-center md:text-left">
                     I am a computer science student at the University of
                     Michigan. I am passionate about improving myself and my
                     skills.
@@ -86,7 +88,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-left mb-12 text-gray-200">
             Projects
           </h2>
-          <div className="grid md:grid-cols-2 lg grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ProjectCard
               title="Portfolio Website"
               description="A personal  website featuring a dark theme"
